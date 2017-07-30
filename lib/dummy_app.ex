@@ -1,4 +1,7 @@
 defmodule DummyApp do
+  @moduledoc """
+  Entry point to the application
+  """
   use Application
 
   # See http://elixir-lang.org/docs/stable/elixir/Application.html
