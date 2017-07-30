@@ -42,7 +42,8 @@ defmodule DummyApp.Mixfile do
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
      {:credo, "~> 0.8", only: [:dev, :test], runtime: false},
-     {:distillery, "~> 1.0"}]
+     {:mix_docker, "~> 0.3.0"},
+     {:distillery, "~> 1.0", override: true}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.
